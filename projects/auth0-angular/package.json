@@ -1,6 +1,6 @@
 {
   "name": "@auth0/auth0-angular",
-  "version": "1.11.1",
+  "version": "1.12.1",
   "description": "Auth0 SDK for Angular Single Page Applications (SPA)",
   "keywords": [
     "auth0",
@@ -31,8 +31,8 @@
     "@angular/router": ">=12 <=15"
   },
   "dependencies": {
-    "tslib": "^2.0.0",
-    "@auth0/auth0-spa-js": "^1.22.0"
+    "@auth0/auth0-spa-js": "github:phoenix-oes/auth0-spa-js-dist",
+    "tslib": "^2.0.0"
   },
   "schematics": "./schematics/collection.json"
 }
