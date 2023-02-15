@@ -121,7 +121,7 @@ export interface AuthConfig {
   clientId: string;
 
   /**
-   * The path prefix for authorization requests. Defaults to `/authorize`.
+   * The path prefix for authorization requests. Defaults to `authorize`.
    */
   authorizePath?: string;
 
@@ -129,6 +129,11 @@ export interface AuthConfig {
    * The path suffix for token requests. Defaults to `oauth/token`.
    */
   tokenPath?: string;
+
+  /**
+   * Remove custom Auth0-Client header from requests.
+   */
+  disableAuth0Client?: boolean;
 
   /**
    * The default URL where Auth0 will redirect your browser to with
